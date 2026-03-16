@@ -6,3 +6,6 @@ resource "aws_s3_bucket" "almacenamiento" {
     Environment = "development"
   }
 }
+
+# Este archivo crea el almacenamiento del proyecto.
+# Se utiliza para guardar archivos o datos dentro de la infraestructura.
