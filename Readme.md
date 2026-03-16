@@ -37,3 +37,11 @@ terraform plan
 5. Crear la infraestructura
 
 terraform apply
+
+
+## Cambios realizados por Mauricio
+
+Se agregó una explicación más clara sobre los recursos creados en la infraestructura.
+
+Motivo:
+Se agregó para que sea más fácil entender qué componentes crea Terraform en este proyecto.
