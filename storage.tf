@@ -4,6 +4,7 @@ resource "aws_s3_bucket" "almacenamiento" {
   tags = {
     Name = "bucket-iac"
     Environment = "development"
+    CreatedBy = "Melanie"
   }
 }
 
