@@ -5,6 +5,7 @@ resource "aws_s3_bucket" "almacenamiento" {
     Name = "bucket-iac"
     Environment = "development"
     CreatedBy = "Melanie"
+    Owner = "Melanie"
   }
 }
 
