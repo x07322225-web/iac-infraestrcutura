@@ -14,3 +14,6 @@ resource "aws_subnet" "subred" {
     Name = "subred-iac"
   }
 }
+
+# Este archivo define la red del proyecto.
+# Aquí se crea la VPC y las subredes necesarias para que la infraestructura funcione.
