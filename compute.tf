@@ -4,5 +4,6 @@ resource "aws_instance" "servidor" {
 
   tags = {
     Name = "servidor-iac"
+    Environment = "development"
   }
 }
